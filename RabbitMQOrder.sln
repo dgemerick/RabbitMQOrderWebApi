@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQOrder", "RabbitMQOrder\RabbitMQOrder.csproj", "{EEE70BD0-BFC5-4DDA-B910-E992982C4060}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppOrderWorker", "AppOrderWorker\AppOrderWorker.csproj", "{CC6457B3-0D02-4A98-B6D6-36A3C1745EF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{EEE70BD0-BFC5-4DDA-B910-E992982C4060}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEE70BD0-BFC5-4DDA-B910-E992982C4060}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEE70BD0-BFC5-4DDA-B910-E992982C4060}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC6457B3-0D02-4A98-B6D6-36A3C1745EF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC6457B3-0D02-4A98-B6D6-36A3C1745EF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC6457B3-0D02-4A98-B6D6-36A3C1745EF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC6457B3-0D02-4A98-B6D6-36A3C1745EF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
